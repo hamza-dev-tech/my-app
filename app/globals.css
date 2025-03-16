@@ -80,7 +80,25 @@
   .h3 {
     @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
   }
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
+  }
+
 }
+.glass-effect {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+
 
 
 
