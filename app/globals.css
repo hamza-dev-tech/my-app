@@ -8,8 +8,6 @@
   }
 }
 
-
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -66,13 +64,53 @@
   }
 }
 
-
-
 @layer base {
   * {
     @apply border-border;
   }
   body {
-    @apply font-primary bg-primary text-white;
+    @apply font-primary bg-primary text-white leading-loose;
   }
+  .h1 {
+    @apply text-[42px] xl:text-[70px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
+}
+
+
+
+/* Typing animation */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+.typing-animation {
+  animation: typing 3s steps(18, end) 1s 1 normal both;
+}
+
+.animate-blink-caret {
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+/* Vertical slide animation */
+@keyframes vertical-slide {
+  0%, 25% { transform: translateY(0) }
+  30%, 55% { transform: translateY(-24px) }
+  60%, 85% { transform: translateY(-48px) }
+  90%, 100% { transform: translateY(-72px) }
+}
+
+.animate-vertical-slide {
+  animation: vertical-slide 8s ease-in-out infinite;
 }
