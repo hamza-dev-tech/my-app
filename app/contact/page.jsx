@@ -1,3 +1,6 @@
+"use client"
+
+
 
 function Contact() {
   return (

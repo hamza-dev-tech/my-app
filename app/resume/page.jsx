@@ -24,7 +24,11 @@ const about = {
   },
   {
     fieldName: "Email",
-    FieldValue: "hamzadevtech01@gmail.com",
+    FieldValue: "hamzadevtech01",
+  },
+  {
+    fieldName: "LinkedIn",
+    FieldValue: "@hamza-dev-tech",
   },
   {
     fieldName: "Nationality",

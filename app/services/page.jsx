@@ -87,7 +87,13 @@ const numberVariants = {
 
 export default function Services() {
   return (
-    <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0 bg-gradient-to-b from-primary/5 to-transparent">
+    <section 
+    initial={{ opacity: 0 }}
+    animate={{
+      opacity: 1,
+      transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+    }}
+    className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0 bg-gradient-to-b from-primary/5 to-transparent">
       <div className="container mx-auto px-4">
         <motion.div
           initial="hidden"
