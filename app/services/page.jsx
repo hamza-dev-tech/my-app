@@ -2,42 +2,56 @@
 import { BsArrowDownRight } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import TechFlappy from "@/components/TechFlappy";
 
 const services = [
   {
     num: "01",
     title: "Web Development",
-    description:
-      "We build websites that serve as powerful marketing tools and bring memorable brand experiences.",
+    description: "Transform your digital presence with blazing-fast, SEO-optimized websites built on modern frameworks like React and Next.js. Drive conversions with responsive designs, intuitive UX, and seamless integrations tailored for scalability and performance.",
     slug: "web-development",
   },
   {
     num: "02",
     title: "Mobile Development",
-    description:
-      "Having a mobile-optimized site is more important than ever. Our mobile development team makes your business relevant to customers on-the-go.",
+    description: "Create cross-platform iOS/Android apps with Flutter and React Native that deliver flawless performance. Boost user retention with AI-driven personalization, offline functionality, and real-time analytics.",
     slug: "mobile-development",
   },
   {
     num: "03",
-    title: "UI/UX Design",
-    description:
-      "Our design team is well-versed in creating custom, modern, and user-friendly designs for web and mobile applications.",
-    slug: "ui-ux-design",
+    title: "AI Solutions",
+    description: "Leverage cutting-edge machine learning models and generative AI to automate workflows, enhance decision-making, and deploy chatbots. Unlock predictive analytics for smarter business strategies.",
+    slug: "ai-solutions",
   },
   {
     num: "04",
-    title: "QA & Testing",
-    description:
-      "Our QA team performs various tests to ensure that your product runs smoothly and meets your requirements.",
-    slug: "qa-testing",
+    title: "Marketing",
+    description: "Dominate search rankings with data-driven SEO strategies, high-conversion PPC campaigns, and viral social media marketing. Amplify ROI with targeted content and conversion rate optimization (CRO).",
+    slug: "digital-marketing",
   },
   {
     num: "05",
     title: "IT Consulting",
-    description:
-      "Our IT consulting services provide you with the digital roadmap that you need to run your business more efficiently.",
+    description: "Future-proof your business with end-to-end IT infrastructure solutions, cloud migration (AWS/Azure), and cybersecurity frameworks. Streamline operations with DevOps automation and scalable architectures.",
     slug: "it-consulting",
+  },
+  {
+    num: "06",
+    title: "Blockchain Solutions",
+    description: "Build secure, transparent decentralized apps (dApps) and smart contracts on Ethereum/Solana. Revolutionize transactions with Web3 integration, NFTs, and DeFi platforms.",
+    slug: "blockchain-solutions",
+  },
+  {
+    num: "07",
+    title: "UI/UX Design",
+    description: "Craft visually stunning interfaces with user-centric wireframing, interactive prototypes, and accessibility-first designs. Boost engagement with intuitive navigation and A/B testing.",
+    slug: "ui-ux-design",
+  },
+  {
+    num: "08",
+    title: "Education",
+    description: "Develop immersive EdTech platforms with AI tutors, gamified learning modules, and VR classrooms. Enhance retention with LMS integrations and microlearning strategies.",
+    slug: "edtech-solutions",
   },
 ];
 
@@ -142,6 +156,7 @@ export default function Services() {
             </motion.div>
           ))}
         </motion.div>
+        <TechFlappy />
       </div>
     </section>
   );

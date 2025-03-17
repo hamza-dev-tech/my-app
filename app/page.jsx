@@ -15,7 +15,16 @@ export default function Home() {
               <div className="animate-vertical-slide text-xl">
                 <span className="block h-6 leading-6">Software Engineer</span>
                 <span className="block h-6 leading-6">
-                  Blockchain Enthusiast
+                  Project Manager
+                </span>
+                <span className="block h-6 leading-6">
+                  AI Agents Expert
+                </span>
+                <span className="block h-6 leading-6">
+                  Tech Educator
+                </span>
+                <span className="block h-6 leading-6">
+                Blockchain Enthusiast
                 </span>
                 <span className="block h-6 leading-6">UI/UX Designer</span>
                 <span className="block h-6 leading-6">
@@ -31,17 +40,19 @@ export default function Home() {
             </h1>
 
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences
+            I create innovative, high-impact digital experiences from AI-driven automation to next-gen web and mobile solutions. Passionate about cutting-edge tech, seamless user experiences, and future-ready systems, I help businesses and individuals turn ideas into reality with efficiency and excellence.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
-              >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+            <a href="/Malik-Hamza-Shabbir.pdf" download="Malik-Hamza-Shabbir.pdf">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </a>
               <div className="mb-8 xl:mb-8">
                 <Social
                   containerStyles="flex gap-6"
