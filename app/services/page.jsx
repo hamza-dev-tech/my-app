@@ -2,7 +2,7 @@
 import { BsArrowDownRight } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import TechFlappy from "@/components/TechFlappy";
+import TechFlappy from "../../components/TechFlappy";
 
 const services = [
   {

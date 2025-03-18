@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
-import { services } from "@/data/services";
-import ServicePageContent from "@/components/ServicePageContent";
+import { services } from "../../../data/services";
+import ServicePageContent from "../../../components/ServicePageContent";
 
 export default function ServicePage({ params }) {
   const service = services.find((s) => s.slug === params.slug);

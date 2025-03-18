@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { FiThumbsUp, FiThumbsDown } from "react-icons/fi";
 import { JetBrains_Mono } from "next/font/google";
 import { useEffect, useState } from "react";
-import { db } from "@/firebase"; // Firebase config
+import { db } from "../../firebase"; // Firebase config
 import { collection, addDoc, getDocs, updateDoc, doc } from "firebase/firestore";
 import Link from "next/link";
 

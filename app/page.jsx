@@ -1,7 +1,7 @@
-import Photo from "@/components/photo";
-import Social from "@/components/Social";
-import Stats from "@/components/Stats";
-import { Button } from "@/components/ui/button";
+import Photo from "../components/photo";
+import Social from "../components/Social";
+import Stats from "../components/Stats";
+import { Button } from "../components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
 export default function Home() {

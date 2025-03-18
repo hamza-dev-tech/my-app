@@ -5,7 +5,7 @@ import { FaLinkedin, FaFacebook, FaInstagram, FaWhatsapp, FaPhoneAlt, FaHome, Fa
 import { SiUpwork, SiFiverr } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import Confetti from 'react-dom-confetti';
-import { db } from "@/firebase"; // Adjust import path as needed
+import { db } from "../../firebase"; // Adjust import path as needed
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 
 function Contact() {

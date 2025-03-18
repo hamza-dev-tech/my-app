@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { inference } from "@/utils/hf"; // Import Hugging Face inference instance
+import { inference } from "../../../utils/hf"; // Import Hugging Face inference instance
 
 const predefinedResponses = {
   "who are you": "I am Hamza Shabbir's personal AI assistant. Hamza is a Software Engineer specializing in Web & Blockchain development.",

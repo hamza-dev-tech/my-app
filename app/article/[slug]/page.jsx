@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { collection, query, where, getDocs } from "firebase/firestore";
-import { db } from "@/firebase";
+import { db } from "../../../firebase";
 import { motion } from "framer-motion";
-import TechFlappy from "@/components/TechFlappy";
-import "@/app/article/page.css";
+import TechFlappy from "../../../components/TechFlappy";
+import "../page.css";
 
 const ArticlePage = () => {
   const { slug } = useParams();
