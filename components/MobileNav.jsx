@@ -22,7 +22,7 @@ const links = [
     href: "/work",
   },
   {
-    name: "articles",
+    name: "article",
     href: "/articles",
   },
   {

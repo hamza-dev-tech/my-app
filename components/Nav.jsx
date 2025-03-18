@@ -22,7 +22,7 @@ const links = [
   },
   {
     name: "articles",
-    href: "/articles",
+    href: "/article",
   },
   {
     name: "contact",

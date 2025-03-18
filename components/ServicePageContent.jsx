@@ -214,10 +214,12 @@ export default function ServicePageContent({ service }) {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                       >
+                        <Link href="/contact">
                         <Button
                                         variant="outline"
                                         size="lg"
                                         className="uppercase flex items-center gap-2"
+                                        href="/contact"
                                       >
                         <span>
 
@@ -225,6 +227,7 @@ export default function ServicePageContent({ service }) {
                         </span>
                         
                             </Button>
+                        </Link>
                       </motion.div>
                     </div>
                   </motion.div>
