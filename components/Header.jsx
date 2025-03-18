@@ -16,14 +16,14 @@ export default function Header() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1, duration: 0.6, ease: "easeInOut" }}
-            className="relative w-[70px] h-[70px] rounded-full overflow-hidden border-2 border-primary-accent mix-blend-lighten"
+            className="relative w-[65px] h-[65px] rounded-full overflow-hidden border-2 border-primary-accent mix-blend-lighten p-2"
           >
             {/* Logo Image */}
             <Image 
-              src="/logo.png"  
-              width={100} 
-              height={100} 
-              alt="Logo"
+              src="/logo.jpg"  
+              width={70} 
+              height={70} 
+              alt="Hamza Shabbir"
               className="w-full h-full object-cover"
             />
 
